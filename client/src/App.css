@@ -1,0 +1,35 @@
+.container {
+    width: 250px;
+    height: max-content;
+    margin: auto;
+    background-color: azure;
+    padding: 20px 15px;
+    margin-top: 40px;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 10px 11px rgba(0, 0, 0, 0.7);
+}
+
+.container h1 {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.container .form-field{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.container .form-error{
+    display: block;
+    color: #ed4337;
+    font-size: 0.9em;
+}
+
+.container .button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 40px;
+}
